@@ -6,6 +6,7 @@ namespace Assets.Scripts
 	{
 		public Vector2Int size;
 		public Vector2Int playerSpawn;
+		public Vector2Int[] enemySpawns;
 
 		public static ULevel Instance => GameObject
 			.FindWithTag( "GameController" )
